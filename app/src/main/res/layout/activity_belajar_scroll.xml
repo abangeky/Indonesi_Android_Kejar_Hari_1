@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.ekyadhiputra.indonesiandroidkejar1.BelajarScroll">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/andro"
+        android:scaleType="center"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEFINITION"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingLeft="8dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jakarta - LG dan Samsung menggunakan layar dengan bezel sangat tipis di G6 dan Galaxy S8. Huawei pun sepertinya siap meluncurkan ponsel dengan layar sejenis.
+
+LG menamai layar berbingkai tipis itu dengan nama FullVision, sementara Samsung memilih nama Infinity Display. Lantas, nama apa yang dipilih Huawei?
+
+EntireView adalah nama yang dipilih Huawei untuk layar tersebut. Nama ini terungkap dari pendaftaran paten yang dilakukan oleh Huawei baru-baru ini. Kabarnya, layar itu akan digunakan oleh Huawei di Mate 10 Phablet, demikian dikutip detikINET dari Phone Arena, Sabtu (5/8/2017).
+
+Ponsel tersebut kabarnya akan punya layar QHD 6 inch namun dengan bodi ponsel yang terbilang kecil. Prosesor yang dipilih adalah Kirin dengan pabrikasi 10 nm, dan kemampuan augmented reality (AR) tambahan.
+
+Selain itu, spesifikasi akan seperti ponsel jagoan Huawei pada umumnya, yaitu RAM, storage, dan baterai berkapasitas besar. Peluncurannya diprediksi `akan terjadi pada Oktober mendatang, dan menjagokan fitur layar dengan rasio aspek 2:1, rasio yang tampaknya akan menjadi tren ponsel pada 2017 ini.	(rns/rns)"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical|right"
+            />
+    </ScrollView>
+</LinearLayout>
